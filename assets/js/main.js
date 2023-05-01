@@ -148,7 +148,7 @@ themeButton.addEventListener('click', () => {
 })
 
 // contact form integration with google sheets
-const scriptURL = 'https://script.google.com/macros/s/AKfycbwCHQYf5jSImVWN4_7tHZyHXYiaxgA9IbLwtVdqHeQVuGd-qvC0Bngwk4a3SFcO8Ii8/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbz8Zx1W5LAzBxmhvpnqMO6SruPcuW2NAAlLcxjMB28KuUTAte5l_93r6Jb8gj2qsHy-/exec'
 const form = document.forms['google-sheet']
 
 form.addEventListener('submit', e => {
